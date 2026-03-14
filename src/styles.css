@@ -9,6 +9,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+#delivery {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-top: 20px;}
 header {
     background-color: lightblue;
     padding: 20px;
