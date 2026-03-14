@@ -1,3 +1,5 @@
+import pizzaImage from "./assets/goopy_pizza.webp";
+
 const home_content = document.createElement("div");
 
 
@@ -9,6 +11,11 @@ home_content.appendChild(home_title);
 home_content.appendChild(home_description);
 
 const home_hours = document.createElement("div");
+const pizza_image = document.createElement("img");
+pizza_image.src = pizzaImage;
+pizza_image.alt = "Delicious pizza";
+home_content.appendChild(pizza_image);
+
 const hours_title = document.createElement("h2");
 hours_title.textContent = "Hours of Operation";
 home_hours.appendChild(hours_title);
