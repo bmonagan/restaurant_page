@@ -1,4 +1,11 @@
 /* styles.css */
 body {
-  background-color: rebeccapurple;
+    background-color: rebeccapurple;
+}
+
+.content {
+    background-color: pink ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
