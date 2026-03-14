@@ -12,3 +12,9 @@ function clear_content() {
     while (content.firstChild) {
         content.removeChild(content.firstChild);
     }}
+const home_btn = document.getElementById("home-btn");
+home_btn.addEventListener("click", () => {
+    clear_content();
+    content.appendChild(home_content);
+});
+
