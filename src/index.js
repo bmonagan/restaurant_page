@@ -1,11 +1,10 @@
 import "./styles.css";
 import home_content from "./home.js";
 import menu_content from "./menu.js";
-// import about_content from "./about";
+import about_content from "./about.js";
 
 const content = document.getElementById("content");
 content.appendChild(home_content);
-// content.appendChild(about_content);
 
 function clear_content() {
     while (content.firstChild) {
@@ -21,4 +20,10 @@ const menu_btn = document.getElementById("menu-button");
 menu_btn.addEventListener("click", () => {
     clear_content();
     content.appendChild(menu_content);
+});
+
+const about_btn = document.getElementById("about-button");
+about_btn.addEventListener("click", () => {
+    clear_content();
+    content.appendChild(about_content);
 });
