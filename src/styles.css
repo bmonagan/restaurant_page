@@ -22,3 +22,11 @@ button {
     cursor: pointer;
     border-radius: 15px;
 }
+h1 {
+    color: white;
+    font-size: 48px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
