@@ -7,3 +7,8 @@ const content = document.getElementById("content");
 content.appendChild(home_content);
 // content.appendChild(menu_content);
 // content.appendChild(about_content);
+
+function clear_content() {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }}
